@@ -9,7 +9,7 @@ Upload \Backend\Modules\Moblog to your webserver. Change your parameters.yml acc
 Add a crontab with ```crontab -l``` on your server:
 ```
 # fetch new moblogs
-*/5 * * * * /usr/bin/wget -O - --quiet --timeout=1440 "http://www.jezek.ch/src/Backend/Cronjob.php?module=Moblog&action=FetchAndProcessEmails"
+*/5 * * * * /usr/bin/wget -O - --quiet --timeout=1440 "http://www.example.com/src/Backend/Cronjob.php?module=Moblog&action=FetchAndProcessEmails"
 ```
 
 ## Notes
