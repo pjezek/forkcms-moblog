@@ -1,0 +1,13 @@
+parameters:
+
+    imap.server:            imap.example.com
+    imap.user:              info@example.com
+    imap.password:          1234
+    imap.port:              993
+    imap.useTls:            true
+    imap.processedFolder:   INBOX.Processed
+
+    moblog.pictureFolder:   moblog
+    moblog.tags:            [ moblog ]
+    moblog.userId:          1
+    moblog.categoryId:      1
